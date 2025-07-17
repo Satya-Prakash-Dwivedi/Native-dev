@@ -12,7 +12,7 @@ export default function FancyCard() {
                 <View style={styles.cardBody}>
                     <Text style={styles.cardTitle}>Itachi Uchiha</Text>
                     <Text style={styles.cardLabel}>Itachi of the sharingan</Text>
-                    <Text style={styles.cardDescription}>Son of fugaku uchiha, and one of the strongest sharingan users along with mangekyo sharingan</Text>
+                    <Text style={styles.cardDescription}>Son of 'Fugaku uchiha', and one of the strongest sharingan users along with mangekyo sharingan</Text>
                     <Text style={styles.cardFooter}>Listed in bingo book</Text>
                 </View>
             </View>
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         padding: 5
     },
     cardElevated: {
-        backgroundColor: '#f3c7c7ff',
+        backgroundColor: '#F47983',
         borderRadius: 10,
         elevation: 3,
         shadowOffset: {
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         marginBottom: 4
     },
     cardFooter: {
-        fontSize: 12,
+        fontSize: 13,
         fontWeight: '600',
         marginBottom: 4
     },
